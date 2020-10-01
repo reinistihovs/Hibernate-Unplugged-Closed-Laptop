@@ -3,7 +3,7 @@
 ##Command:
 ##C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 ##Arguments:
-##-NoProfile -Executionpolicy bypass -file "C:\Windows\System32\autohibernate.ps1"
+##-NoProfile -Executionpolicy bypass -file "C:\Scripts\autohibernate.ps1"
 ##Trigger every 1 minute
 
 #Check if laptop is unplugged
