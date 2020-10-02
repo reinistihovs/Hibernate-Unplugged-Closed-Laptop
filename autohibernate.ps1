@@ -1,4 +1,4 @@
-##This prevents laptops from overheating in the bag, when disconnectinfg from dcok, while the lid is closed.
+##This prevents laptops from overheating in the bag, when disconnectinfg from dock, while the lid is closed.
 ## Add this script in task scheduler,
 ##Command:
 ##C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
