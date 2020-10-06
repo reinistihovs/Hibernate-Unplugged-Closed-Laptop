@@ -9,8 +9,9 @@
 [string]$DriveLetter = "C" # the drive letter to check free space on *** WITHOUT THE SEMICOLON ***
 [int64]$ThresholdGB = 20 # how many GB must be free to enable hibernating?
 $PowerState = [System.Windows.Forms.PowerState]::Suspend;
-$ForceSleep = $true;
-$DisableWake = $true;
+$ForceSleep = $true; # Force computer to sleep, if hibernation disabled?
+$DisableWake = $true; # Disable wake timers?
+
 powercfg -hibernate off #Disable hibernate by default
 
 
