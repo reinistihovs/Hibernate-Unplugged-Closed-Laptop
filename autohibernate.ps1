@@ -37,7 +37,7 @@ If (((Get-CimInstance win32_battery).BatteryStatus) -ne 2 ) {
         If ($diskGBFree -lt $ThresholdGB) {
           #Disable Hibernation and put computer to sleep, prevent wake timers
           powercfg -hibernate off
-          [System.Windows.Forms.Application]::SetSuspendState($PowerState, $Force, $DisableWake);
+          [System.Windows.Forms.Application]::SetSuspendState($PowerState, $ForceSleep, $DisableWake);
         } else {
           #Enable hibernation and hibernate computer
           powercfg -hibernate on
